@@ -2,31 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
-
 @layer utilities {
   .text-balance {
     text-wrap: balance;
@@ -34,13 +9,15 @@ body {
 }
 
 .navbar-div-style {
-  height: 84px;
   padding: 20px 120px;
+  width: 1440px;
 }
 
 .navbar-brand-text {
   font-size: 20px;
   color: #064EA4;
+  padding: 10px 0 10px 0 !important;
+  line-height: 24.42px !important;
 }
 
 .navbar-dropdown-toggle::after {
@@ -54,24 +31,20 @@ body {
   margin-bottom: -2.5px !important; 
 }
 
-.navbar-right-corner-btn-yellow {
+.navbar-right-button-yellow {
   background-color: #FCDF69 !important;
-  border-radius: 30px !important;
-  font-weight: 700 !important;
-  padding-top: 12px !important;
-  padding-bottom: 12px !important;
-  padding-left: 20px !important;
-  padding-right: 20px !important;
+  font-weight: 700;
+  padding: 12px 20px;
+  line-height: 19.54px;
+  border-radius: 30px;
 }
 
-.navbar-right-corner-btn-orange {
+.navbar-right-button-orange {
   background-color: #F99D76 !important;
-  border-radius: 30px !important;
-  font-weight: 700 !important;
-  padding-top: 12px !important;
-  padding-bottom: 12px !important;
-  padding-left: 20px !important;
-  padding-right: 20px !important;
+  font-weight: 700;
+  padding: 12px 20px;
+  line-height: 19.54px;
+  border-radius: 30px;
 }
 
 .hero-div-style {
@@ -88,6 +61,44 @@ body {
   padding-top: 21px;
   padding-right: 59px;
   padding-bottom: 24px;
+}
+
+.hero-circle-orange-container {
+  height: 208px;
+  width: 240px;
+  overflow: hidden;
+  position: absolute;
+  top: 83.52px;
+  left: 0px;
+}
+
+.hero-circle-orange {
+  background-color: transparent;
+  background-image: radial-gradient(circle at center, #F99D76 70%, transparent 70%);
+  height: 290px;
+  width: 290px;
+  position: absolute;
+  top: -122px;
+  left: -147px;
+}
+
+.hero-circle-yellow-container {
+  height: 208px;
+  width: 240px;
+  overflow: hidden;
+  position: absolute;
+  top: 549.52px;
+  left: 1200px;
+}
+
+.hero-circle-yellow {
+  background-color: transparent;
+  background-image: radial-gradient(circle at center, #FCDF69 70%, transparent 70%);
+  height: 290px;
+  width: 290px;
+  position: absolute;
+  bottom: -82px;
+  right: -50px;
 }
 
 .hero-frame-9 {
