@@ -24,10 +24,47 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.navbar-div-style {
+  height: 84px;
+  padding: 20px 120px;
+}
+
+.navbar-brand-text {
+  font-size: 20px;
+  color: #064EA4;
+}
+
+/* FIX THIS LATER */
+.navbar-dropdown-toggle::after {
+  border-top-color: #064EA4 !important; /* Arrow color */
+  border-top-width: 5px !important; /* Half of your height requirement for a sharper arrow */
+  border-left-width: 5px !important; /* Half of your width requirement */
+  border-right-width: 5px !important; /* Half of your width requirement */
+  border-bottom: 10px !important; /* Remove bottom border if present */
+  margin-top: 10px !important; /* Move up the arrow by 5px */
+  margin-left: 7px !important; /* Move up the arrow by 5px */
+  margin-bottom: -2.5px !important; /* Move up the arrow by 5px */
+
+
+}
+
+.navbar-right-corner-btn-yellow {
+  background-color: #FCDF69 !important;
+  border-radius: 30px !important;
+  font-weight: 700 !important;
+}
+
+.navbar-right-corner-btn-orange {
+  background-color: #F99D76 !important;
+  border-radius: 30px !important;
+  font-weight: 700 !important;
 }
