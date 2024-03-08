@@ -53,8 +53,6 @@ body {
   margin-top: 10px !important; /* Move up the arrow by 5px */
   margin-left: 7px !important; /* Move up the arrow by 5px */
   margin-bottom: -2.5px !important; /* Move up the arrow by 5px */
-
-
 }
 
 .navbar-right-corner-btn-yellow {
@@ -67,4 +65,9 @@ body {
   background-color: #F99D76 !important;
   border-radius: 30px !important;
   font-weight: 700 !important;
+}
+
+.hero-div-style {
+  height: 674px;
+  background-color: #064EA4;
 }

@@ -65,7 +65,7 @@ export default function Home() {
       </div>
 
       {/* Hero */}
-      <div className="bg-[#064EA4] h-[674px]">
+      <div className="hero-div-style">
         {/* Container */}
         <div className="py-[60px] px-[120px] flex gap-[60px]">
           {/* Frame 9 */}
