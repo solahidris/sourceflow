@@ -24,7 +24,7 @@ export default function Home() {
                   For jobseekers
                 </button>
                 <ul className="dropdown-menu">
-                  <li><a className="dropdown-item" href="/">new page</a></li>
+                  <li><Link className="dropdown-item" href="/">new page</Link></li>
                 </ul>
               </div>
               {/* Frame 2 */}
@@ -33,7 +33,7 @@ export default function Home() {
                   For clients
                 </button>
                 <ul className="dropdown-menu ">
-                  <li><a className="dropdown-item" href="/">new page</a></li>
+                  <li><Link className="dropdown-item" href="/">new page</Link></li>
                 </ul>
               </div>
               {/* Frame 3 */}
@@ -42,7 +42,7 @@ export default function Home() {
                   Sectors
                 </button>
                 <ul className="dropdown-menu">
-                  <li><a className="dropdown-item" href="/">new page</a></li>
+                  <li><Link className="dropdown-item" href="/">new page</Link></li>
                 </ul>
               </div>
               {/* Frame 4 */}
@@ -51,7 +51,7 @@ export default function Home() {
                   Resources
                 </button>
                 <ul className="dropdown-menu">
-                  <li><a className="dropdown-item" href="/">new page</a></li>
+                  <li><Link className="dropdown-item" href="/">new page</Link></li>
                 </ul>
               </div>
             </div>
