@@ -69,5 +69,57 @@ body {
 
 .hero-div-style {
   height: 674px;
+  width: 1440px;
   background-color: #064EA4;
+  padding: 60px 120px;
+}
+
+.hero-container-style {
+  display: flex;
+  gap: 60px;
+  height: 555px;
+  padding-top: 21px;
+  padding-right: 59px;
+  padding-bottom: 24px;
+}
+
+.hero-frame-9 {
+  margin-top: 157.5px;
+}
+
+.hero-frame-13 {
+  display: flex;
+  height: 62px;
+  width: 592px;
+}
+
+.hero-frame-10 {
+  width: 433px;
+  border-radius: 30px 0 0 30px;
+  border: 1px 0px 1px 1px solid #ced4da;
+  padding: 10px 20px;
+  background-color: white;
+  color: black;  
+}
+
+.hero-frame-10::placeholder {
+  color: #AAAAAA; 
+}
+
+.hero-frame-12 {
+  width: 159px !important;
+  border-radius: 0 30px 30px 0 !important; 
+  background-color: #FCDF69 !important; 
+  color: #25210E !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.hero-image {
+  width: 507px;
+  height: 480px;
+  object-fit: cover;
+  object-position: right;
+  border-radius: 30px;
 }
