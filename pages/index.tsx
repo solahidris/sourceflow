@@ -7,7 +7,6 @@ export default function Home() {
     <div className="min-h-screen w-[1440px] bg-white text-black">
       
       {/* Header */}
-      {/* <div className="d-flex justify-content-between align-items-center"> */}
       <div className="d-flex justify-content-between align-items-center navbar-div-style">
         {/* Frame 8 */}
         <div className="d-flex align-items-center gap-[46px]">
@@ -68,23 +67,17 @@ export default function Home() {
 
       {/* Hero */}
       <div className="hero-div-style d-flex align-items-center justify-content-center">
-        <div className="hero-circle-orange-container">
-          <div className="hero-circle-orange"></div>
-        </div>
-        <div className="hero-circle-yellow-container">
-          <div className="hero-circle-yellow"></div>
-        </div>
         {/* Container */}
         <div className="hero-container-style">
           {/* Frame 9 */}
           <div className="hero-frame-9">
             {/* Frame 11 */}
             <div>
-              <span className="p-[6px] text-white">Software Recruitment Specialists</span>
+              <span className="p-[6px] text-white text-[48px] lg:text-[16px]">Software Recruitment Specialists</span>
             </div>
             {/* Frame 14 */}
             <div className="gap-[10px]">
-              <span className="text-[66px] text-white fw-bold">Elevate your career</span>
+              <span className="text-[120px] lg:text-[66px] text-white fw-bold">Elevate your career</span>
               {/* Frame 13 */}
               <div className="hero-frame-13">
                 {/* Frame 10 */}
@@ -94,7 +87,15 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <Image className="hero-image z-40" src="/9e7463bd63b976b8b0101bf9fc4e0467.jpeg" alt="next" width={800} height={800} />
+          <Image className="hero-image z-40 lg:relative lg:top-0 lg:right-0 absolute top-[250px] right-[-940px]" src="/9e7463bd63b976b8b0101bf9fc4e0467.jpeg" alt="next" width={800} height={800} />
+        </div>
+        {/* Orange Circle */}
+        <div className="hero-circle-orange-container">
+          <div className="hero-circle-orange"></div>
+        </div>
+        {/* Yellow Circle */}
+        <div className="absolute top-[1100.54px] right-[-1010px] h-[416px] w-[680px] overflow-hidden lg:top-[549.52px] lg:left-[1200px] lg:h-[208px] lg:w-[240px]">
+          <div className="absolute bottom-[-290px] right-[-0px] h-[580px] w-[580px] bg-transparent bg-[radial-gradient(circle_at_center,_#FCDF69_70%,_transparent_70%)] lg:bottom-[-82px] lg:right-[-50px] lg:h-[290px] lg:w-[290px]"></div>
         </div>
       </div>
 
