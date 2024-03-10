@@ -206,15 +206,37 @@
   flex-direction: column;
   align-items: center;
   gap: 30px;
-  padding: 60px 120px;
+  padding: 120px;
 }
+
+@media (min-width: 1440px) {
+  .clients-container-style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 60px 120px;
+  }
+}
+
 
 .client-logo-container {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
-  width: 1200px;
-  gap: 30px;
+  justify-content: center;
+  gap: 120px;
+}
+
+@media (min-width: 1440px) {
+  .client-logo-container {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 1200px;
+    gap: 30px;
+  }
 }
 
 .latest-job-container {
