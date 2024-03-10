@@ -10,14 +10,28 @@
 
 .navbar-div-style {
   padding: 20px 120px;
-  width: 1440px;
+  
+}
+
+@media (min-width: 1440px) {
+  .navbar-div-style {
+    width: 1440px; /* This width will only be applied on screens wider than 1440px */
+    padding: 20px 120px;
+  }
 }
 
 .navbar-brand-text {
-  font-size: 20px;
+  font-size: 40px;
   color: #064EA4;
-  padding: 10px 0 10px 0 !important;
-  line-height: 24.42px !important;
+}
+
+@media (min-width: 1440px) {
+  .navbar-brand-text {
+    font-size: 20px;
+    color: #064EA4;
+    padding: 10px 0 10px 0 !important;
+    line-height: 24.42px !important;
+  }
 }
 
 .navbar-dropdown-toggle::after {
@@ -34,17 +48,41 @@
 .navbar-right-button-yellow {
   background-color: #FCDF69 !important;
   font-weight: 700;
-  padding: 12px 20px;
+  padding: 24px 40px;
   line-height: 19.54px;
   border-radius: 30px;
+  font-size: 32px;
+}
+
+@media (min-width: 1440px) {
+  .navbar-right-button-yellow {
+    background-color: #FCDF69 !important;
+    font-weight: 700;
+    padding: 12px 20px;
+    line-height: 19.54px;
+    border-radius: 30px;
+    font-size: 16px;
+  }
 }
 
 .navbar-right-button-orange {
   background-color: #F99D76 !important;
   font-weight: 700;
-  padding: 12px 20px;
+  padding: 24px 40px;
   line-height: 19.54px;
   border-radius: 30px;
+  font-size: 32px;
+}
+
+@media (min-width: 1440px) {
+  .navbar-right-button-orange {
+    background-color: #F99D76 !important;
+    font-weight: 700;
+    padding: 12px 20px;
+    line-height: 19.54px;
+    border-radius: 30px;
+    font-size: 16px;
+  }
 }
 
 .hero-div-style {

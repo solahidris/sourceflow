@@ -7,6 +7,7 @@ export default function Home() {
     <div className="min-h-screen w-[1440px] bg-white text-black">
       
       {/* Header */}
+      {/* <div className="d-flex justify-content-between align-items-center"> */}
       <div className="d-flex justify-content-between align-items-center navbar-div-style">
         {/* Frame 8 */}
         <div className="d-flex align-items-center gap-[46px]">
@@ -17,7 +18,7 @@ export default function Home() {
           {/* Menu */}
           <div>
             {/* Frame 7 */}
-            <div className="flex gap-[30px]">
+            <div className="md:flex md:gap-[30px] hidden md:block">
               {/* Frame 1 */}
               <div className="dropdown">
                 <button className="btn dropdown-toggle navbar-dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
