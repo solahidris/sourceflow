@@ -9,8 +9,7 @@
 }
 
 .navbar-div-style {
-  padding: 20px 40px;
-  
+  padding: 50px 60px;
 }
 
 @media (min-width: 1440px) {
@@ -381,9 +380,19 @@
 
 .footer-container-style {
   background-color: #064EA4 !important;
-  width: 1440px !important;
-  padding: 80px 120px !important;
+  padding: 120px !important;
   display: flex !important;
-  gap: 32px !important;
+  gap: 64px !important;
   color: white !important;
+}
+
+@media (min-width: 1440px) {
+  .footer-container-style {
+    background-color: #064EA4 !important;
+    width: 1440px !important;
+    padding: 80px 120px !important;
+    display: flex !important;
+    gap: 32px !important;
+    color: white !important;
+  }
 }
