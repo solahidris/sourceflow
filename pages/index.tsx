@@ -137,18 +137,18 @@ export default function Home() {
           {/* Title */}
           <span className="latest-job-header fw-bold text-center">Latest Jobs</span>
           {/* Sliders */}
-          <div className="d-flex justify-content-between gap-[40px]">
+          <div className="d-flex justify-content-between lg:gap-[40px] gap-[80px] flex-col lg:flex-row items-center">
             {/* Slider Yellow */}
             <div className="latest-job-slider-yellow">
               
               {/* Tag */}
               <div className="d-flex">
               <div className="d-flex align-items-center bg-white latest-job-tag">
-                <svg width="18" height="18" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-[54px] h-[54px] lg:w-[18px] lg:h-[18px]" width="18" height="18" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M7.68875 9.23567H10.9348C10.9348 9.23567 12.7588 9.26492 12.7588 7.47317V4.50992C12.7588 4.50992 13.0355 2.71667 9.452 2.71667C6.0215 2.71667 6.23525 4.20392 6.23525 4.20392L6.23975 5.74517H9.512V6.20792H4.94C4.94 6.20792 2.74475 5.95892 2.74475 9.41942C2.74475 12.8799 4.661 12.7569 4.661 12.7569H5.804V11.1512C5.804 11.1512 5.74175 9.23567 7.68875 9.23567ZM7.64675 4.93067C7.49061 4.93067 7.34085 4.86864 7.23044 4.75823C7.12003 4.64781 7.058 4.49806 7.058 4.34192C7.058 4.18577 7.12003 4.03602 7.23044 3.92561C7.34085 3.8152 7.49061 3.75317 7.64675 3.75317C7.8029 3.75317 7.95265 3.8152 8.06306 3.92561C8.17347 4.03602 8.2355 4.18577 8.2355 4.34192C8.2355 4.49806 8.17347 4.64781 8.06306 4.75823C7.95265 4.86864 7.8029 4.93067 7.64675 4.93067Z" fill="#064EA4"/>
                   <path d="M14.339 6.11567H13.196V7.72142C13.196 7.72142 13.2582 9.63692 11.3112 9.63692H8.06522C8.06522 9.63692 6.24122 9.60692 6.24122 11.3994V14.3627C6.24122 14.3627 5.96447 16.1559 9.54797 16.1559C12.9777 16.1559 12.764 14.6687 12.764 14.6687L12.7595 13.1282H9.48722V12.6654H14.06C14.06 12.6654 16.2552 12.9144 16.2552 9.45392C16.2552 5.99342 14.339 6.11567 14.339 6.11567ZM11.3532 13.9427C11.5094 13.9427 11.6591 14.0047 11.7695 14.1151C11.8799 14.2255 11.942 14.3753 11.942 14.5314C11.942 14.6876 11.8799 14.8373 11.7695 14.9477C11.6591 15.0581 11.5094 15.1202 11.3532 15.1202C11.1971 15.1202 11.0473 15.0581 10.9369 14.9477C10.8265 14.8373 10.7645 14.6876 10.7645 14.5314C10.7645 14.3753 10.8265 14.2255 10.9369 14.1151C11.0473 14.0047 11.1971 13.9427 11.3532 13.9427Z" fill="#064EA4"/>
                 </svg>
-                <span className="text-[14px] lh-1">Python</span>
+                <span className="text-[28px] lg:text-[14px] lh-1">Python</span>
               </div>
               </div>
 
@@ -157,23 +157,23 @@ export default function Home() {
               
               <div className="d-flex flex-column gap-[10px]">
                 {/* Location */}
-                <div className="d-flex gap-[10px]">
-                  <svg width="24" height="24" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <div className="d-flex lg:gap-[10px] gap-[20px]">
+                  <svg className="lg:w-[24px] lg:h-[24px] w-[48px] h-[48px]" width="24" height="24" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M12.5 2.46667C8.63 2.46667 5.5 5.59667 5.5 9.46667C5.5 14.7167 12.5 22.4667 12.5 22.4667C12.5 22.4667 19.5 14.7167 19.5 9.46667C19.5 5.59667 16.37 2.46667 12.5 2.46667ZM12.5 11.9667C11.837 11.9667 11.2011 11.7033 10.7322 11.2344C10.2634 10.7656 10 10.1297 10 9.46667C10 8.80363 10.2634 8.16775 10.7322 7.69891C11.2011 7.23007 11.837 6.96667 12.5 6.96667C13.163 6.96667 13.7989 7.23007 14.2678 7.69891C14.7366 8.16775 15 8.80363 15 9.46667C15 10.1297 14.7366 10.7656 14.2678 11.2344C13.7989 11.7033 13.163 11.9667 12.5 11.9667Z" fill="#064EA4"/>
                   </svg>
-                  <span>London</span>
+                  <span className="lg:text-[16px] text-[32px]">London</span>
                 </div>
                 {/* Salary */}
                 <div className="d-flex gap-[10px]">
-                  <svg width="24" height="24" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <svg className="lg:w-[24px] lg:h-[24px] w-[48px] h-[48px]" width="24" height="24" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M3.5 6.46667H21.5V18.4667H3.5V6.46667ZM12.5 9.46667C13.2956 9.46667 14.0587 9.78274 14.6213 10.3454C15.1839 10.908 15.5 11.671 15.5 12.4667C15.5 13.2623 15.1839 14.0254 14.6213 14.588C14.0587 15.1506 13.2956 15.4667 12.5 15.4667C11.7044 15.4667 10.9413 15.1506 10.3787 14.588C9.81607 14.0254 9.5 13.2623 9.5 12.4667C9.5 11.671 9.81607 10.908 10.3787 10.3454C10.9413 9.78274 11.7044 9.46667 12.5 9.46667ZM7.5 8.46667C7.5 8.99711 7.28929 9.50582 6.91421 9.88089C6.53914 10.256 6.03043 10.4667 5.5 10.4667V14.4667C6.03043 14.4667 6.53914 14.6774 6.91421 15.0525C7.28929 15.4275 7.5 15.9362 7.5 16.4667H17.5C17.5 15.9362 17.7107 15.4275 18.0858 15.0525C18.4609 14.6774 18.9696 14.4667 19.5 14.4667V10.4667C18.9696 10.4667 18.4609 10.256 18.0858 9.88089C17.7107 9.50582 17.5 8.99711 17.5 8.46667H7.5Z" fill="#064EA4"/>
                   </svg>
-                  <span>£65,000</span>
+                  <span className="lg:text-[16px] text-[32px]">£65,000</span>
                 </div>
               </div>
               
               {/* Description */}
-              <span>Odio mi amet commodo convallis nunc. Tincidunt mauris eu egestas eget in aliquam.</span>
+              <span className="lg:text-[16px] text-[32px]">Odio mi amet commodo convallis nunc. Tincidunt mauris eu egestas eget in aliquam.</span>
 
               {/* Button Primary */}
               <button type="button" className="latest-job-button-primary">View this job</button>
@@ -188,11 +188,11 @@ export default function Home() {
                {/* Tag */}
                <div className="d-flex gap-[10px]">
               <div className="d-flex align-items-center bg-white latest-job-tag">
-                <svg width="18" height="18" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-[54px] h-[54px] lg:w-[18px] lg:h-[18px]" width="18" height="18" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M7.68875 9.23567H10.9348C10.9348 9.23567 12.7588 9.26492 12.7588 7.47317V4.50992C12.7588 4.50992 13.0355 2.71667 9.452 2.71667C6.0215 2.71667 6.23525 4.20392 6.23525 4.20392L6.23975 5.74517H9.512V6.20792H4.94C4.94 6.20792 2.74475 5.95892 2.74475 9.41942C2.74475 12.8799 4.661 12.7569 4.661 12.7569H5.804V11.1512C5.804 11.1512 5.74175 9.23567 7.68875 9.23567ZM7.64675 4.93067C7.49061 4.93067 7.34085 4.86864 7.23044 4.75823C7.12003 4.64781 7.058 4.49806 7.058 4.34192C7.058 4.18577 7.12003 4.03602 7.23044 3.92561C7.34085 3.8152 7.49061 3.75317 7.64675 3.75317C7.8029 3.75317 7.95265 3.8152 8.06306 3.92561C8.17347 4.03602 8.2355 4.18577 8.2355 4.34192C8.2355 4.49806 8.17347 4.64781 8.06306 4.75823C7.95265 4.86864 7.8029 4.93067 7.64675 4.93067Z" fill="#064EA4"/>
                   <path d="M14.339 6.11567H13.196V7.72142C13.196 7.72142 13.2582 9.63692 11.3112 9.63692H8.06522C8.06522 9.63692 6.24122 9.60692 6.24122 11.3994V14.3627C6.24122 14.3627 5.96447 16.1559 9.54797 16.1559C12.9777 16.1559 12.764 14.6687 12.764 14.6687L12.7595 13.1282H9.48722V12.6654H14.06C14.06 12.6654 16.2552 12.9144 16.2552 9.45392C16.2552 5.99342 14.339 6.11567 14.339 6.11567ZM11.3532 13.9427C11.5094 13.9427 11.6591 14.0047 11.7695 14.1151C11.8799 14.2255 11.942 14.3753 11.942 14.5314C11.942 14.6876 11.8799 14.8373 11.7695 14.9477C11.6591 15.0581 11.5094 15.1202 11.3532 15.1202C11.1971 15.1202 11.0473 15.0581 10.9369 14.9477C10.8265 14.8373 10.7645 14.6876 10.7645 14.5314C10.7645 14.3753 10.8265 14.2255 10.9369 14.1151C11.0473 14.0047 11.1971 13.9427 11.3532 13.9427Z" fill="#064EA4"/>
                 </svg>
-                <span className="text-[14px] lh-1 text-[#064EA4]">Python</span>
+                <span className="text-[28px] lg:text-[14px] lh-1 text-[#064EA4]">Python</span>
               </div>
               </div>
 
@@ -201,23 +201,23 @@ export default function Home() {
               
               <div className="d-flex flex-column gap-[10px]">
                 {/* Location */}
-                <div className="d-flex gap-[10px]">
-                  <svg width="24" height="24" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <div className="d-flex lg:gap-[10px] gap-[20px]">
+                  <svg className="lg:w-[24px] lg:h-[24px] w-[48px] h-[48px]" width="24" height="24" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M12.5 2.46667C8.63 2.46667 5.5 5.59667 5.5 9.46667C5.5 14.7167 12.5 22.4667 12.5 22.4667C12.5 22.4667 19.5 14.7167 19.5 9.46667C19.5 5.59667 16.37 2.46667 12.5 2.46667ZM12.5 11.9667C11.837 11.9667 11.2011 11.7033 10.7322 11.2344C10.2634 10.7656 10 10.1297 10 9.46667C10 8.80363 10.2634 8.16775 10.7322 7.69891C11.2011 7.23007 11.837 6.96667 12.5 6.96667C13.163 6.96667 13.7989 7.23007 14.2678 7.69891C14.7366 8.16775 15 8.80363 15 9.46667C15 10.1297 14.7366 10.7656 14.2678 11.2344C13.7989 11.7033 13.163 11.9667 12.5 11.9667Z" fill="#FFFFFF"/>
                   </svg>
-                  <span>London</span>
+                  <span className="lg:text-[16px] text-[32px]">London</span>
                 </div>
                 {/* Salary */}
                 <div className="d-flex gap-[10px]">
-                  <svg width="24" height="24" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <svg className="lg:w-[24px] lg:h-[24px] w-[48px] h-[48px]" width="24" height="24" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M3.5 6.46667H21.5V18.4667H3.5V6.46667ZM12.5 9.46667C13.2956 9.46667 14.0587 9.78274 14.6213 10.3454C15.1839 10.908 15.5 11.671 15.5 12.4667C15.5 13.2623 15.1839 14.0254 14.6213 14.588C14.0587 15.1506 13.2956 15.4667 12.5 15.4667C11.7044 15.4667 10.9413 15.1506 10.3787 14.588C9.81607 14.0254 9.5 13.2623 9.5 12.4667C9.5 11.671 9.81607 10.908 10.3787 10.3454C10.9413 9.78274 11.7044 9.46667 12.5 9.46667ZM7.5 8.46667C7.5 8.99711 7.28929 9.50582 6.91421 9.88089C6.53914 10.256 6.03043 10.4667 5.5 10.4667V14.4667C6.03043 14.4667 6.53914 14.6774 6.91421 15.0525C7.28929 15.4275 7.5 15.9362 7.5 16.4667H17.5C17.5 15.9362 17.7107 15.4275 18.0858 15.0525C18.4609 14.6774 18.9696 14.4667 19.5 14.4667V10.4667C18.9696 10.4667 18.4609 10.256 18.0858 9.88089C17.7107 9.50582 17.5 8.99711 17.5 8.46667H7.5Z" fill="#FFFFFF"/>
                   </svg>
-                  <span>£65,000</span>
+                  <span className="lg:text-[16px] text-[32px]">£65,000</span>
                 </div>
               </div>
               
               {/* Description */}
-              <span>Odio mi amet commodo convallis nunc. Tincidunt mauris eu egestas eget in aliquam.</span>
+              <span className="lg:text-[16px] text-[32px]">Odio mi amet commodo convallis nunc. Tincidunt mauris eu egestas eget in aliquam.</span>
 
               {/* Button Primary */}
               <button type="button" className="latest-job-button-primary text-[#064EA4]">View this job</button>
@@ -229,13 +229,13 @@ export default function Home() {
             {/* Slider Orange */}
             <div className="latest-job-slider-orange">
               {/* Tag */}
-              <div className="d-flex gap-[10px]">
+              <div className="d-flex lg:gap-[10px] gap-[20px]">
               <div className="d-flex align-items-center bg-white latest-job-tag">
-                <svg width="18" height="18" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-[54px] h-[54px] lg:w-[18px] lg:h-[18px]" width="18" height="18" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M7.68875 9.23567H10.9348C10.9348 9.23567 12.7588 9.26492 12.7588 7.47317V4.50992C12.7588 4.50992 13.0355 2.71667 9.452 2.71667C6.0215 2.71667 6.23525 4.20392 6.23525 4.20392L6.23975 5.74517H9.512V6.20792H4.94C4.94 6.20792 2.74475 5.95892 2.74475 9.41942C2.74475 12.8799 4.661 12.7569 4.661 12.7569H5.804V11.1512C5.804 11.1512 5.74175 9.23567 7.68875 9.23567ZM7.64675 4.93067C7.49061 4.93067 7.34085 4.86864 7.23044 4.75823C7.12003 4.64781 7.058 4.49806 7.058 4.34192C7.058 4.18577 7.12003 4.03602 7.23044 3.92561C7.34085 3.8152 7.49061 3.75317 7.64675 3.75317C7.8029 3.75317 7.95265 3.8152 8.06306 3.92561C8.17347 4.03602 8.2355 4.18577 8.2355 4.34192C8.2355 4.49806 8.17347 4.64781 8.06306 4.75823C7.95265 4.86864 7.8029 4.93067 7.64675 4.93067Z" fill="#064EA4"/>
                   <path d="M14.339 6.11567H13.196V7.72142C13.196 7.72142 13.2582 9.63692 11.3112 9.63692H8.06522C8.06522 9.63692 6.24122 9.60692 6.24122 11.3994V14.3627C6.24122 14.3627 5.96447 16.1559 9.54797 16.1559C12.9777 16.1559 12.764 14.6687 12.764 14.6687L12.7595 13.1282H9.48722V12.6654H14.06C14.06 12.6654 16.2552 12.9144 16.2552 9.45392C16.2552 5.99342 14.339 6.11567 14.339 6.11567ZM11.3532 13.9427C11.5094 13.9427 11.6591 14.0047 11.7695 14.1151C11.8799 14.2255 11.942 14.3753 11.942 14.5314C11.942 14.6876 11.8799 14.8373 11.7695 14.9477C11.6591 15.0581 11.5094 15.1202 11.3532 15.1202C11.1971 15.1202 11.0473 15.0581 10.9369 14.9477C10.8265 14.8373 10.7645 14.6876 10.7645 14.5314C10.7645 14.3753 10.8265 14.2255 10.9369 14.1151C11.0473 14.0047 11.1971 13.9427 11.3532 13.9427Z" fill="#064EA4"/>
                 </svg>
-                <span className="text-[14px] lh-1">Python</span>
+                <span className="text-[28px] lg:text-[14px] lh-1">Python</span>
               </div>
               </div>
               {/* Job Title */}
@@ -244,21 +244,21 @@ export default function Home() {
               <div className="d-flex flex-column gap-[10px]">
                 {/* Location */}
                 <div className="d-flex gap-[10px]">
-                  <svg width="24" height="24" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <svg className="lg:w-[24px] lg:h-[24px] w-[48px] h-[48px]" width="24" height="24" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M12.5 2.46667C8.63 2.46667 5.5 5.59667 5.5 9.46667C5.5 14.7167 12.5 22.4667 12.5 22.4667C12.5 22.4667 19.5 14.7167 19.5 9.46667C19.5 5.59667 16.37 2.46667 12.5 2.46667ZM12.5 11.9667C11.837 11.9667 11.2011 11.7033 10.7322 11.2344C10.2634 10.7656 10 10.1297 10 9.46667C10 8.80363 10.2634 8.16775 10.7322 7.69891C11.2011 7.23007 11.837 6.96667 12.5 6.96667C13.163 6.96667 13.7989 7.23007 14.2678 7.69891C14.7366 8.16775 15 8.80363 15 9.46667C15 10.1297 14.7366 10.7656 14.2678 11.2344C13.7989 11.7033 13.163 11.9667 12.5 11.9667Z" fill="#064EA4"/>
                   </svg>
-                  <span>London</span>
+                  <span className="lg:text-[16px] text-[32px]">London</span>
                 </div>
                 {/* Salary */}
                 <div className="d-flex gap-[10px]">
-                  <svg width="24" height="24" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <svg className="lg:w-[24px] lg:h-[24px] w-[48px] h-[48px]" width="24" height="24" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M3.5 6.46667H21.5V18.4667H3.5V6.46667ZM12.5 9.46667C13.2956 9.46667 14.0587 9.78274 14.6213 10.3454C15.1839 10.908 15.5 11.671 15.5 12.4667C15.5 13.2623 15.1839 14.0254 14.6213 14.588C14.0587 15.1506 13.2956 15.4667 12.5 15.4667C11.7044 15.4667 10.9413 15.1506 10.3787 14.588C9.81607 14.0254 9.5 13.2623 9.5 12.4667C9.5 11.671 9.81607 10.908 10.3787 10.3454C10.9413 9.78274 11.7044 9.46667 12.5 9.46667ZM7.5 8.46667C7.5 8.99711 7.28929 9.50582 6.91421 9.88089C6.53914 10.256 6.03043 10.4667 5.5 10.4667V14.4667C6.03043 14.4667 6.53914 14.6774 6.91421 15.0525C7.28929 15.4275 7.5 15.9362 7.5 16.4667H17.5C17.5 15.9362 17.7107 15.4275 18.0858 15.0525C18.4609 14.6774 18.9696 14.4667 19.5 14.4667V10.4667C18.9696 10.4667 18.4609 10.256 18.0858 9.88089C17.7107 9.50582 17.5 8.99711 17.5 8.46667H7.5Z" fill="#064EA4"/>
                   </svg>
-                  <span>£65,000</span>
+                  <span className="lg:text-[16px] text-[32px]">£65,000</span>
                 </div>
               </div>
               {/* Description */}
-              <span>Odio mi amet commodo convallis nunc. Tincidunt mauris eu egestas eget in aliquam.</span>
+              <span className="lg:text-[16px] text-[32px]">Odio mi amet commodo convallis nunc. Tincidunt mauris eu egestas eget in aliquam.</span>
               {/* Button Primary */}
               <button type="button" className="latest-job-button-primary">View this job</button>
               {/* Date */}
@@ -266,19 +266,19 @@ export default function Home() {
             </div>
           </div>
           {/* Footer */}
-          <div className="d-flex justify-content-between align-items-center h-[50.11px]">
+          <div className="d-flex justify-content-between align-items-center lg:h-[50.11px] h-[150px] lg:w-full w-[746px] mx-auto">
             {/* Slider Controls */}
-            <div className="d-flex gap-[15px]">
-              <button type="button"><svg width="40" height="40" viewBox="0 0 34 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <div className="d-flex lg:gap-[15px] gap-[30px]">
+              <button type="button"><svg className="lg:w-[40px] lg:h-[40px] w-[80px] h-[80px]" width="40" height="40" viewBox="0 0 34 35" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M0.333313 17.5205C0.333313 26.7205 7.79998 34.1872 17 34.1872C26.2 34.1872 33.6667 26.7205 33.6667 17.5205C33.6667 8.32049 26.2 0.853821 17 0.853821C7.79998 0.853821 0.333313 8.32049 0.333313 17.5205ZM17 15.8538H23.6667V19.1872H17V24.1872L10.3333 17.5205L17 10.8538V15.8538Z" fill="#0E2152" fill-opacity="0.5"/>
               </svg></button>
-              <button type="button"><svg width="40" height="40" viewBox="0 0 34 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <button type="button"><svg className="lg:w-[40px] lg:h-[40px] w-[80px] h-[80px]" width="40" height="40" viewBox="0 0 34 35" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M33.6667 17.5205C33.6667 8.32049 26.2 0.853821 17 0.853821C7.79998 0.853821 0.333313 8.32049 0.333313 17.5205C0.333313 26.7205 7.79998 34.1872 17 34.1872C26.2 34.1872 33.6667 26.7205 33.6667 17.5205ZM17 19.1872H10.3333V15.8538H17V10.8538L23.6667 17.5205L17 24.1872V19.1872Z" fill="#0E2152"/>
               </svg></button>
             </div>
             {/* View More Jobs */}
             <div className="p-[10px]">
-              <button className="latest-job-view-more">View more jobs</button>
+              <button className="latest-job-view-more lg:text-[16px] text-[32px]">View more jobs</button>
             </div>
           </div>
         </div>
